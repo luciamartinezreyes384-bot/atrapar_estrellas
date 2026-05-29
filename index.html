@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego: Atrapar Estrellas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Bloque 1: Encabezado -->
+        <header class="encabezado">
+            <h1>✨ Atrapar Estrellas ✨</h1>
+            <div class="puntuacion">Puntos: <span id="puntos">0</span></div>
+        </header>
+
+        <!-- Bloque 2: Zona de Juego -->
+        <main id="zonaJuego" class="zona-juego">
+            <div id="jugador" class="jugador">🤍</div>
+            <div id="estrella" class="estrella">⭐</div>
+            <div id="mensajeFinal" class="mensaje-final"></div>
+        </main>
+
+        <!-- Bloque 3: Controles -->
+        <footer class="controles">
+            <button id="btnIniciar" class="boton">▶️ Iniciar</button>
+            <button id="btnReiniciar" class="boton">🔄 Reiniciar</button>
+            <p class="instruccion">Usa ← → para moverte</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
